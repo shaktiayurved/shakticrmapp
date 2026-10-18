@@ -1,0 +1,14 @@
+{
+  "appId": "in.shakticrm.app",
+  "appName": "Shakti CRM",
+  "webDir": "www",
+  "server": {
+    "url": "__SITE_URL__",
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": { "allowMixedContent": false },
+  "plugins": {
+    "PushNotifications": { "presentationOptions": ["badge", "sound", "alert"] }
+  }
+}
